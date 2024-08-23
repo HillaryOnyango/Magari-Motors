@@ -1,0 +1,86 @@
+.navbar {
+  background-color: white;
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10%;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.navbar-logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo-icon {
+  color: blue;
+  font-weight: bold;
+  font-size: 24px;
+  margin-right: 5px;
+}
+
+.logo-text {
+  font-weight: bold;
+  font-size: 20px;
+  color: black;
+}
+
+.navbar-links {
+  display: flex;
+  gap: 20px;
+}
+
+.navbar-links a {
+  text-decoration: none;
+  color: gray;
+  font-size: 16px;
+}
+
+.navbar-links a:hover {
+  color: black;
+}
+
+.navbar-actions {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.sell-car-btn {
+  background-color: blue;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.sell-car-btn:hover {
+  background-color: darkblue;
+}
+
+.profile-icon,
+.user-icon {
+  font-size: 20px;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    height: auto;
+  }
+  .navbar-logo {
+    margin-bottom: 10px;
+  }
+  .navbar-links {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .navbar-actions {
+    margin-top: 10px;
+  }
+}
