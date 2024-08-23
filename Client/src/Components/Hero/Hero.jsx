@@ -16,8 +16,10 @@ function Hero() {
       </div>
       <div className="search-bar">
         <input type="text" placeholder="Red Convertible" />
-        <button className="ai-search-btn">AI SEARCH</button>
-        <button className="traditional-search-btn">TRADITIONAL SEARCH</button>
+        <div className="button-container">
+          <button className="ai-search-btn">AI SEARCH</button>
+          <button className="traditional-search-btn">TRADITIONAL SEARCH</button>
+        </div>
       </div>
     </div>
   );
