@@ -1,6 +1,6 @@
 import React from "react";
 import "./review.css";
-import HavalImg from "../../assets/2023Haval.png.";
+import HavalImg from "../../assets/Haval.png.";
 import ToyotaCamry from "../../assets/ToyotaCamry.png";
 import ChevroletCruze from "../../assets/ChevroletCruze.png";
 
@@ -13,7 +13,7 @@ function Review() {
       </div>
       <div className="review-cards">
         <div className="review-card">
-          <img src={HeroImg} alt="Car" className="hero-img" />
+          <img src={HavalImg} alt="Car" className="hero-img" />
           <div className="card-content">
             <div className="rating">★★★★★</div>
             <h3>2023 Haval H6: A Compelling Choice</h3>
@@ -21,7 +21,7 @@ function Review() {
           </div>
         </div>
         <div className="review-card">
-          <img src="/path-to-toyota-camry-image.jpg" alt="2022 Toyota Camry" />
+          <img src={ToyotaCamry} alt="2022 Toyota Camry" />
           <div className="card-content">
             <div className="rating">★★★★☆</div>
             <h3>2022 Toyota Camry: Refined & Reliable</h3>
@@ -29,10 +29,7 @@ function Review() {
           </div>
         </div>
         <div className="review-card">
-          <img
-            src="/path-to-chevrolet-cruze-image.jpg"
-            alt="2023 Chevrolet Cruze"
-          />
+          <img src={hevroletCruze} alt="2023 Chevrolet Cruze" />
           <div className="card-content">
             <div className="rating">★★★★☆</div>
             <h3>2023 Chevrolet Cruze: A Balanced Contender</h3>

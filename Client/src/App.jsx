@@ -11,6 +11,7 @@ function App() {
       <Nabar />
       <Hero />
       <Content />
+      <Review />
     </div>
   );
 }
