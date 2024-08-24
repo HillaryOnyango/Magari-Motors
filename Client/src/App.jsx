@@ -8,7 +8,7 @@ import Navbar from "./Components/Navbar/Navbar";
 function App() {
   return (
     <div>
-      <Nabar />
+      <Navbar />
       <Hero />
       <Content />
       <Review />
