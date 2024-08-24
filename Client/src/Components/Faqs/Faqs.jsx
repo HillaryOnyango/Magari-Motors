@@ -1,29 +1,35 @@
 import React from "react";
 import "./faqs.css";
-import leftArrow from "../../assets/left-arrow.png"; // Replace with correct path
-import rightArrow from "../../assets/right-arrow.png"; // Replace with correct path
+import leftArrow from "../../assets/left-arrow.png";
+import rightArrow from "../../assets/right-arrow.png";
+
+// Import guide images
+import guide1Image from "../../assets/guide1.png";
+import guide2Image from "../../assets/guide2.png";
+import guide3Image from "../../assets/guide3.jpeg";
+import guide4Image from "../../assets/guide4.png";
 
 function Faqs() {
   const guides = [
     {
       date: "20 August, 2024 | 4 min read",
       title: "Cooling car paint? Nissan might have the answer!",
-      image: "../../assets/guide1.png", // Replace with correct path
+      image: guide1Image,
     },
     {
       date: "14 July, 2024 | 5 min read",
       title: "Wheel Balancing & Alignment. Whats the difference?",
-      image: "../../assets/guide2.png", // Replace with correct path
+      image: guide2Image,
     },
     {
       date: "13 June, 2024 | 7 min read",
-      title: "Mercedes CLS63: Isn't that a Grandad’s car?",
-      image: "../../assets/guide3.png", // Replace with correct path
+      title: "Mercedes CLS63: Isn't that a Grandad's car?",
+      image: guide3Image,
     },
     {
       date: "11 June, 2024 | 7 min read",
       title: "Nissan Patrol: Does it live up to the hype?",
-      image: "../../assets/guide4.png", // Replace with correct path
+      image: guide4Image,
     },
   ];
 
