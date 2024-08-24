@@ -1,0 +1,47 @@
+.services-container {
+  text-align: center;
+  padding: 50px 0;
+  background-color: #f9f9f9;
+}
+
+.services-container h2 {
+  font-size: 2rem;
+  margin-bottom: 30px;
+}
+
+.services-container .highlight {
+  color: #000;
+  font-weight: bold;
+}
+
+.services-grid {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.service-item {
+  width: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #666;
+}
+
+.service-item .icon {
+  font-size: 40px;
+  color: #0047ff; /* Blue color for icons */
+  margin-bottom: 10px;
+}
+
+.service-item p {
+  font-size: 14px;
+  font-weight: 500;
+  /* Add media query for responsive design */
+  @media (max-width: 768px) {
+    .services-grid {
+      flex-direction: column;
+      gap: 20px;
+    }
+  }
+}

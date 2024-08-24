@@ -1,0 +1,75 @@
+.joy-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f4f4f4; /* Match background color */
+  padding: 20px;
+  border-radius: 15px;
+}
+
+.joy-content {
+  background-color: white;
+  border-radius: 10px;
+  overflow: hidden;
+  max-width: 1100px;
+  width: 100%;
+  text-align: center;
+  padding: 20px;
+  position: relative;
+}
+
+.joy-text {
+  font-size: 60px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.joy-text .bmw {
+  font-size: 25px;
+  margin-right: 10px;
+}
+
+.joy-text .joy {
+  color: #0071c2; /* BMW blue color */
+}
+
+.joy-text .days {
+  font-size: 20px;
+  margin-left: 10px;
+}
+
+.joy-image-container {
+  position: relative;
+}
+
+.joy-image {
+  max-width: 100%;
+  height: auto;
+  margin-top: 20px;
+}
+
+.joy-tagline {
+  font-size: 18px;
+  color: #333;
+  margin-top: 20px;
+}
+
+.price {
+  font-weight: bold;
+}
+
+@media screen and (max-width: 768px) {
+  .joy-text {
+    font-size: 45px;
+  }
+
+  .joy-image {
+    margin-top: 10px;
+  }
+
+  .joy-tagline {
+    font-size: 16px;
+  }
+}
