@@ -1,6 +1,6 @@
 import React from "react";
 import "./review.css";
-import HavalImg from "../../assets/Haval.png.";
+import Haval from "../../assets/Haval.png.";
 import ToyotaCamry from "../../assets/ToyotaCamry.png";
 import ChevroletCruze from "../../assets/ChevroletCruze.png";
 
@@ -13,7 +13,7 @@ function Review() {
       </div>
       <div className="review-cards">
         <div className="review-card">
-          <img src={HavalImg} alt="Car" className="hero-img" />
+          <img src={Haval} alt="Car" className="hero-img" />
           <div className="card-content">
             <div className="rating">★★★★★</div>
             <h3>2023 Haval H6: A Compelling Choice</h3>
