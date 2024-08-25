@@ -1,5 +1,7 @@
 import React from "react";
-import "./footer.css"; // You'll need to create this CSS file
+import "./footer.css";
+import appStoreLogo from "../../assets/app-store-logo.png";
+import playStoreLogo from "../../assets/play-store-logo.png";
 
 function Footer() {
   return (
@@ -42,10 +44,10 @@ function Footer() {
             <h3>Coming Soon</h3>
             <div className="app-buttons">
               <a href="#" className="app-store-button">
-                App Store
+                <img src={appStoreLogo} alt="App Store" />
               </a>
               <a href="#" className="play-store-button">
-                Play Store
+                <img src={playStoreLogo} alt="Play Store" />
               </a>
             </div>
           </div>
@@ -53,7 +55,7 @@ function Footer() {
       </div>
 
       <div className="footer-bottom">
-        <p>© 2024 Automarket . All rights reserved.</p>
+        <p>© 2024 MagariAuto . All rights reserved.</p>
         <div className="social-icons">
           <a href="#" className="social-icon">
             f

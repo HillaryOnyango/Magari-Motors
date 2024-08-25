@@ -1,6 +1,8 @@
+/* Section styling */
 .partners-section {
   text-align: center;
   padding: 40px 0;
+  min-height: 20px;
 }
 
 .partners-title {
@@ -8,6 +10,7 @@
   margin-bottom: 30px;
 }
 
+/* Grid for partners */
 .partners-grid {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
@@ -15,11 +18,22 @@
   margin-bottom: 30px;
 }
 
+/* Partner logo styling */
 .partner-logo img {
+  border-radius: 20px;
   max-width: 100%;
-  height: auto;
+  height: 75%;
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for hover effect */
 }
 
+/* Partner logo hover effect */
+.partner-logo img:hover {
+  transform: scale(1.05); /* Slightly enlarge the image on hover */
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  /* Add a shadow for depth */
+}
+
+/* View All button container */
 .view-all-container {
   color: whitesmoke;
   border: none;
@@ -28,6 +42,7 @@
   cursor: pointer;
 }
 
+/* View All button styling */
 .view-all-button {
   display: inline-block;
   padding: 10px 20px;
@@ -36,5 +51,13 @@
   text-decoration: none;
   border-radius: 5px;
   font-weight: bold;
+  transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth transition for hover effect */
   border-radius: 5px;
+}
+
+/* View All button hover effect */
+.view-all-button:hover {
+  background-color: #3333cc; /* Darker shade on hover */
+  transform: translateY(-3px);
+  /* Slight upward movement on hover */
 }

@@ -48,18 +48,55 @@
   text-decoration: none;
 }
 
-.app-buttons {
+/* .app-buttons {
   display: flex;
   gap: 10px;
+  align-items: center;
+  flex-direction: column;
+  padding: 10px;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 .app-store-button,
 .play-store-button {
   background-color: #fff;
   color: #000;
-  padding: 8px 16px;
+  padding: 8px 16px; 
   border-radius: 5px;
   text-decoration: none;
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+  margin-bottom: 15px;
+} */
+.app-buttons {
+  display: flex;
+  gap: 1rem;
+}
+
+.app-store-button,
+.play-store-button {
+  display: flex;
+  align-items: center;
+  padding: 0.5rem 1rem;
+  background-color: #333;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.app-store-button:hover,
+.play-store-button:hover {
+  background-color: #555;
+}
+
+.app-store-button img,
+.play-store-button img {
+  width: 24px;
+  height: 24px;
+  margin-right: 0.5rem;
 }
 
 .footer-bottom {
